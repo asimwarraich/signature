@@ -1,11 +1,12 @@
 * {
   box-sizing: border-box;
+
   @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap");
 }
 body {
   padding: 0;
   margin: 0;
-  color: black;
+  background-color: #83adcd;
   font-family: "Roboto", sans-serif;
 }
 .sinature__main__container {
@@ -17,6 +18,7 @@ body {
 // }
 .main__header__img img {
   width: 100%;
+  object-fit: cover;
 }
 .sign__nav__bar__wraper {
   position: absolute;
@@ -26,8 +28,9 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  width: 90%;
-  margin: 1em 3em;
+  padding: 1em 3em;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .sign__logo__main img {
   height: 50px;
@@ -43,4 +46,58 @@ body {
   border-bottom: 3px solid #af9131;
   transition: 0.2s ease-in-out;
   border-radius: 12px;
+}
+.sign__header__contant {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sign__header__contant__heading {
+  font-size: 24px;
+  color: white;
+  font-weight: 300;
+}
+.sign__header__contant__sub__heading {
+  color: #511b3b;
+  font-size: 28px;
+}
+.sign__loction__card__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign__loction__card {
+  width: 20%;
+  border: 1px solid #f7f5f6;
+  margin: 3px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 2em;
+  border-radius: 8px;
+  height: 170px;
+  color: white;
+}
+.sign__loction__card:hover {
+  background-color: white;
+  color: #511b3b;
+}
+.sign__loction__card__contant__heading {
+  font-size: 22px;
+  color: inherit;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.sign__loction__card__contant__sub__heading {
+  font-size: 16px;
+  color: inherit;
+  font-weight: 200;
 }
