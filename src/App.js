@@ -4,6 +4,15 @@ import main from "./assets/main.png";
 import logo from "./assets/logo.png";
 import locbg from "./assets/locbg.png";
 import Hader from "./components/Hader";
+import signature from "./assets/signature.png";
+import fresh from "./assets/fresh.png";
+import cardcar from "./assets/feacard/cardcar.png";
+import cardone from "./assets/feacard/cardone.png";
+import carthri from "./assets/feacard/cardthri.png";
+import cardtow from "./assets/feacard/cardtow.png";
+import crdfiv from "./assets/feacard/crdfiv.png";
+import crdgim from "./assets/feacard/crdgim.png";
+import footer from "./assets/footer.png";
 
 import Card from "./components/Card";
 function App() {
@@ -167,7 +176,315 @@ function App() {
       </div>
 
       <Card />
-      <Card />
+      <div className="freshness__container">
+        <div className="freshness__container__img">
+          <img src={fresh} alt="Freshness__img" />
+        </div>
+        <div className="freshness__container__contant">
+          <div className="freshness__container__contant__heading">
+            Surrounded by Freshness
+          </div>
+          <div className="freshness__container__contant__sub__heading">
+            Signature Hotels Murree is a merger of international standards and
+            our legacy of hospitality. The exalted high rise presents you
+            exquisite residences matching international standards in luxe and
+            comfort. Our Signature Suites are a perfect abode option for people
+            who want to experience exceptional luxury blended with unmatched
+            hospitality.
+          </div>
+        </div>
+        <div className="freshness__container__sign__logo">
+          <div className="freshness__right__logo">
+            <svg width="193" height="372" viewBox="0 0 193 372">
+              <defs>
+                <clipPath id="clip-path">
+                  <rect
+                    id="Rectangle_2938"
+                    data-name="Rectangle 2938"
+                    width="193"
+                    height="372"
+                    transform="translate(13608 -9275)"
+                    fill="#fff"
+                  />
+                </clipPath>
+              </defs>
+              <g
+                id="Mask_Group_25"
+                data-name="Mask Group 25"
+                transform="translate(-13608 9275)"
+                clip-path="url(#clip-path)"
+              >
+                <g
+                  id="Group_75"
+                  data-name="Group 75"
+                  transform="translate(13608.124 -9275.442)"
+                >
+                  <path
+                    id="Path_7"
+                    data-name="Path 7"
+                    d="M76.986,102.7S73.546,36.125,132.167,1.409c0,0,39.069,1.806,55.511,12.64,0,0-75.264,34.609-61.333,125.73"
+                    transform="translate(5.788 1.025)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_8"
+                    data-name="Path 8"
+                    d="M241.393,76.408C142.678-2.2,67.79,87.857,67.79,87.857"
+                    transform="translate(-14.69 96.726)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_9"
+                    data-name="Path 9"
+                    d="M98.475,16.212s109.86,41.57,64.924,160.976"
+                    transform="translate(53.923 34.125)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_10"
+                    data-name="Path 10"
+                    d="M156.08,47.943s-109.3,55.543-42.764,168.911c0,0,52.747-21.8,68.251-63.662"
+                    transform="translate(39.082 105.076)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_11"
+                    data-name="Path 11"
+                    d="M101.764,55.628s21.021,110.617,148.424,93.722"
+                    transform="translate(61.277 122.26)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_12"
+                    data-name="Path 12"
+                    d="M106.525,149.27C241,147.956,237.866,35.883,237.866,35.883s-40.684-17.255-90.25,10.43"
+                    transform="translate(71.923 66.23)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_13"
+                    data-name="Path 13"
+                    d="M162.408,200S34.17,189.378,66.657,41.7c0,0,20.892-18.957,59.905-27.37"
+                    transform="translate(-29.015 29.918)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_14"
+                    data-name="Path 14"
+                    d="M175.916,99.453s-9.268-58.161-64.75-83.723c0,0,27.344-14.061,61.044-15.073,0,0,36.451,25.891,39.544,46.308"
+                    transform="translate(82.3 -0.657)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_15"
+                    data-name="Path 15"
+                    d="M125.136,22.624s55.113-26.26,114.251,16.633c0,0,33.254,92.741-53.8,147.291,0,0-17.578-26.726-26.221-32.635"
+                    transform="translate(113.537 30.67)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_16"
+                    data-name="Path 16"
+                    d="M147.113,32.212s63.759,18.057,79.959,83.5c0,0-13.717,40.143-31.936,53.129"
+                    transform="translate(162.679 69.901)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_17"
+                    data-name="Path 17"
+                    d="M250.577,58.016S288.924,91.337,268.8,171.271c0,0-71.662,60.934-156.812-6.553"
+                    transform="translate(84.129 127.6)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_18"
+                    data-name="Path 18"
+                    d="M215,67.782s27.778,52.569,0,105.184c0,0-23.594,37.939-41.861,48.337,0,0-39.884,1.233-61.151-14.792"
+                    transform="translate(84.129 149.437)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_19"
+                    data-name="Path 19"
+                    d="M183.388,31.753s-88.01-15.345-132.007,86.82c0,0,17.6,60.067,82.736,82.975"
+                    transform="translate(-51.381 67.043)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_20"
+                    data-name="Path 20"
+                    d="M90.215,68.388s-49.6,79.441,43.686,153.705c0,0,73.351-9.216,99.9-55.724"
+                    transform="translate(5.998 150.792)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                  <path
+                    id="Path_21"
+                    data-name="Path 21"
+                    d="M62.484,74.042s-5.747,22.477,6.543,65.313c0,0,56.9,39.81,112.925,19.144"
+                    transform="translate(-29.555 163.434)"
+                    fill="none"
+                    stroke="#39001c"
+                    stroke-miterlimit="10"
+                    stroke-width="1.3"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div className="feature__container">
+        <div className="feature__container__text">
+          <div className="feature__container__text__heading">Feature</div>
+          <div className="feature__container__text__sub__heading">
+            In the spirit of our renowned legacy of hospitality, Signature
+            Hotels Murree is a thoroughly pristine escape surrounded by
+            magnificent mountains in the enchanting valley.
+          </div>
+        </div>
+        <div className="feature__cards__wraper">
+          <div className="feature__img__first__card__wraper">
+            <div className="feature__img__card__one">
+              <img src={cardone} alt="feature__first" />
+            </div>
+            <div className="feature__img__card__two">
+              <img src={cardtow} alt="feature__first" />
+            </div>
+          </div>
+          <div className="feature__img__sec__card__wraper">
+            <div className="feature__img__card__three">
+              <img src={carthri} alt="feature__first" />
+            </div>
+            <div className="feature__img__card__four">
+              <img src={crdgim} alt="feature__first" />
+            </div>
+          </div>
+          <div className="feature__img__thr__card__wraper">
+            <div className="feature__img__card__five">
+              <img src={crdfiv} alt="feature__first" />
+            </div>
+            <div className="feature__img__card__six">
+              <img src={cardcar} alt="feature__first" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="buttom_container">
+        <div className="buttom__img">
+          <img src={footer} alt="footer" />
+        </div>
+        <div className="buttom__contant__container">
+          <div className="buttom__contant__heading">
+            Feel Free To Contact Us
+          </div>
+          <div className="buttom__contant__card__wraper">
+            <div className="buttom__contant__card">
+              <div className="buttom__contant__card__svg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="58.78"
+                  height="64.978"
+                  viewBox="0 0 58.78 64.978"
+                >
+                  <g
+                    id="Icon_feather-home"
+                    data-name="Icon feather-home"
+                    transform="translate(-3 -1.5)"
+                  >
+                    <path
+                      id="Path_4757"
+                      data-name="Path 4757"
+                      d="M4.5,24.692,32.39,3,60.28,24.692V58.78a6.2,6.2,0,0,1-6.2,6.2H10.7a6.2,6.2,0,0,1-6.2-6.2Z"
+                      transform="translate(0 0)"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                    />
+                    <path
+                      id="Path_4758"
+                      data-name="Path 4758"
+                      d="M13.5,48.989V18H32.093V48.989"
+                      transform="translate(9.593 15.989)"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div className="buttom__contant__card__heading">HeadOffice</div>
+              <div className="buttom__contant__card__sub__heading">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </div>
+            </div>
+            <div className="buttom__contant__card">
+              <div className="buttom__contant__card__svg">
+                <img src="#" alt="Svg" />
+              </div>
+              <div className="buttom__contant__card__heading">Phone</div>
+              <div className="buttom__contant__card__sub__heading">
+                +92 343 12345678
+              </div>
+            </div>
+            <div className="buttom__contant__card">
+              <div className="buttom__contant__card__svg">
+                <img src="#" alt="Svg" />
+              </div>
+              <div className="buttom__contant__card__heading">Mail</div>
+              <div className="buttom__contant__card__sub__heading">
+                info@signaturemurree.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
