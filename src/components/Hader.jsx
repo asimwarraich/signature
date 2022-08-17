@@ -18,7 +18,7 @@ export default function Hader() {
       if (window.scrollY > 0) {
         setIsScrolling(true);
       } else {
-        setIsOpen(false);
+        setIsScrolling(false);
       }
     });
   }, []);
@@ -248,64 +248,70 @@ export default function Hader() {
           )}
         </button>
         {isOpen ? (
-          <div className="sign__nav__links__wraper">
-            <a
-              href="#"
-              onClick={() => {
-                if (window.innerWidth < 900) {
-                  setIsOpen(false);
-                }
-              }}
-              className="sign__nav__link"
-            >
-              Home
-              <title>Home</title>
-            </a>
-            <a
-              href="#"
-              onClick={() => {
-                if (window.innerWidth < 900) {
-                  setIsOpen(false);
-                }
-              }}
-              className="sign__nav__link"
-            >
-              About us
-            </a>
-            <a
-              href="#"
-              onClick={() => {
-                if (window.innerWidth < 900) {
-                  setIsOpen(false);
-                }
-              }}
-              className="sign__nav__link"
-            >
-              Amenities
-            </a>
-            <a
-              href="#"
-              onClick={() => {
-                if (window.innerWidth < 900) {
-                  setIsOpen(false);
-                }
-              }}
-              className="sign__nav__link"
-            >
-              Location
-            </a>
-            <a
-              href="#"
-              onClick={() => {
-                if (window.innerWidth < 900) {
-                  setIsOpen(false);
-                }
-              }}
-              className="sign__nav__link"
-            >
-              Contact Us
-            </a>
-          </div>
+          <OutsideClickHandler
+            onOutsideClick={() => {
+              setIsOpen(false);
+            }}
+          >
+            <div className="sign__nav__links__wraper">
+              <a
+                href="#"
+                onClick={() => {
+                  if (window.innerWidth < 900) {
+                    setIsOpen(false);
+                  }
+                }}
+                className="sign__nav__link"
+              >
+                Home
+                <title>Home</title>
+              </a>
+              <a
+                href="#"
+                onClick={() => {
+                  if (window.innerWidth < 900) {
+                    setIsOpen(false);
+                  }
+                }}
+                className="sign__nav__link"
+              >
+                About us
+              </a>
+              <a
+                href="#"
+                onClick={() => {
+                  if (window.innerWidth < 900) {
+                    setIsOpen(false);
+                  }
+                }}
+                className="sign__nav__link"
+              >
+                Amenities
+              </a>
+              <a
+                href="#"
+                onClick={() => {
+                  if (window.innerWidth < 900) {
+                    setIsOpen(false);
+                  }
+                }}
+                className="sign__nav__link"
+              >
+                Location
+              </a>
+              <a
+                href="#"
+                onClick={() => {
+                  if (window.innerWidth < 900) {
+                    setIsOpen(false);
+                  }
+                }}
+                className="sign__nav__link"
+              >
+                Contact Us
+              </a>
+            </div>
+          </OutsideClickHandler>
         ) : null}
       </div>
     </div>
