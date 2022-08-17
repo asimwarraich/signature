@@ -292,13 +292,125 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+.buttom__contant__heading {
+  font-size: 28px;
+  font-weight: 600px;
+  color: white;
+  padding-bottom: 1em;
+}
 .buttom__contant__card__wraper {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  color: #f7f5f6;
 }
 .buttom__contant__card {
   border: 1px solid #511b3b;
   width: 25%;
+  padding: 2em 2em;
+  margin: 1em 0.5em;
+  border-radius: 8px;
+  height: 200px;
+  min-height: 180px;
+}
+.buttom__contant__card__svg svg {
+  height: 90px;
+}
+.footer__main__container {
+  position: absolute;
+  top: 270%;
+
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__logo__sec {
+  width: 25%;
+}
+.footer__logo__sec__contant {
+  font-size: 14px;
+}
+.footer__pages__links__section {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer__pages__links__section__heading {
+  font-size: 18px;
+  color: #511b3b;
+  margin-bottom: 3px;
+}
+.footer__pages__link {
+  margin: 3px 0px;
+}
+.footer__page__sub__link {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+.quick__linK__section {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.quick__linK__section__heading {
+  font-size: 18px;
+  color: #511b3b;
+  margin-bottom: 3px;
+}
+.quick__sub__link {
+  margin: 3px 0px;
+}
+.quick__sub__link__detail {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+.mailing__container {
+  width: 20%;
+  margin-bottom: 1 em;
+}
+.mailing__container__heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #511b3b;
+  padding-bottom: 5px;
+}
+.mailing__container__sub__heading {
+  font-size: 14px;
+}
+.mail__input__bar {
+  margin-top: 9px;
+  width: 70%;
+}
+.mail__input__bar input {
+  padding: 1em 0em;
+  padding-left: 5px;
+  width: 100%;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+}
+.mail__input__bar svg {
+  position: absolute;
+  height: 40px;
+  margin-left: 15em;
+  margin-bottom: 3em;
+}
+@media (max-width: 750px) {
+  .sign__header__contant {
+    margin-top: 1em;
+  }
+  .nature__container__right__img img {
+    height: 300px;
+  }
 }
