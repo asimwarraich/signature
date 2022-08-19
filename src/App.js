@@ -2,7 +2,7 @@ import React from "react";
 import "./style/global.scss";
 import main from "./assets/main.png";
 import logo from "./assets/logo.png";
-import locbg from "./assets/locbg.png";
+
 import Hader from "./components/Hader";
 import signature from "./assets/signature.png";
 import fresh from "./assets/fresh.png";
@@ -12,17 +12,17 @@ import carthri from "./assets/feacard/cardthri.png";
 import cardtow from "./assets/feacard/cardtow.png";
 import crdfiv from "./assets/feacard/crdfiv.png";
 import crdgim from "./assets/feacard/crdgim.png";
-import footer from "./assets/footer.png";
+import sky from "./assets/sky.png";
 
 import Card from "./components/Card";
 function App() {
   return (
     <div className="signature">
+      <Hader />
       <div className="sinature__main__container">
         <div className="main__header__img">
           <img src={main} alt="backgroud" />
         </div>
-        <Hader />
         <div className="sign__header__contant">
           <div className="sign__header__contant__heading">
             THE FIRST OF ITS KIND
@@ -32,10 +32,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="location__backgroud__wraper">
-        <div className="location__backgroud__wraper__img">
-          <img src={locbg} alt="location background" />
-        </div>
+      <div className="sign__location__card__wraper">
         <div className="sign__loction__card__container">
           <div className="sign__loction__card">
             <div className="sign__loction__card__svg">
@@ -54,7 +51,7 @@ function App() {
               </svg>
             </div>
             <div className="sign__loction__card__contant__heading">
-              Patriata{" "}
+              Patriata
             </div>
             <div className="sign__loction__card__contant__sub__heading">
               Murree
@@ -174,7 +171,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <Card />
       <div className="freshness__container">
         <div className="freshness__container__img">
@@ -194,188 +190,186 @@ function App() {
           </div>
         </div>
         <div className="freshness__container__sign__logo">
-          <div className="freshness__right__logo">
-            <svg width="193" height="372" viewBox="0 0 193 372">
-              <defs>
-                <clipPath id="clip-path">
-                  <rect
-                    id="Rectangle_2938"
-                    data-name="Rectangle 2938"
-                    width="193"
-                    height="372"
-                    transform="translate(13608 -9275)"
-                    fill="#fff"
-                  />
-                </clipPath>
-              </defs>
+          <svg width="193" height="372" viewBox="0 0 193 372">
+            <defs>
+              <clipPath id="clip-path">
+                <rect
+                  id="Rectangle_2936"
+                  data-name="Rectangle 2936"
+                  width="193"
+                  height="372"
+                  transform="translate(11070 -9244)"
+                  fill="#fff"
+                />
+              </clipPath>
+            </defs>
+            <g
+              id="Mask_Group_24"
+              data-name="Mask Group 24"
+              transform="translate(-11070 9244)"
+              clip-path="url(#clip-path)"
+            >
               <g
-                id="Mask_Group_25"
-                data-name="Mask Group 25"
-                transform="translate(-13608 9275)"
-                clip-path="url(#clip-path)"
+                id="Group_72"
+                data-name="Group 72"
+                transform="translate(11070.124 -9244.442)"
               >
-                <g
-                  id="Group_75"
-                  data-name="Group 75"
-                  transform="translate(13608.124 -9275.442)"
-                >
-                  <path
-                    id="Path_7"
-                    data-name="Path 7"
-                    d="M76.986,102.7S73.546,36.125,132.167,1.409c0,0,39.069,1.806,55.511,12.64,0,0-75.264,34.609-61.333,125.73"
-                    transform="translate(5.788 1.025)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_8"
-                    data-name="Path 8"
-                    d="M241.393,76.408C142.678-2.2,67.79,87.857,67.79,87.857"
-                    transform="translate(-14.69 96.726)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_9"
-                    data-name="Path 9"
-                    d="M98.475,16.212s109.86,41.57,64.924,160.976"
-                    transform="translate(53.923 34.125)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_10"
-                    data-name="Path 10"
-                    d="M156.08,47.943s-109.3,55.543-42.764,168.911c0,0,52.747-21.8,68.251-63.662"
-                    transform="translate(39.082 105.076)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_11"
-                    data-name="Path 11"
-                    d="M101.764,55.628s21.021,110.617,148.424,93.722"
-                    transform="translate(61.277 122.26)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_12"
-                    data-name="Path 12"
-                    d="M106.525,149.27C241,147.956,237.866,35.883,237.866,35.883s-40.684-17.255-90.25,10.43"
-                    transform="translate(71.923 66.23)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_13"
-                    data-name="Path 13"
-                    d="M162.408,200S34.17,189.378,66.657,41.7c0,0,20.892-18.957,59.905-27.37"
-                    transform="translate(-29.015 29.918)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_14"
-                    data-name="Path 14"
-                    d="M175.916,99.453s-9.268-58.161-64.75-83.723c0,0,27.344-14.061,61.044-15.073,0,0,36.451,25.891,39.544,46.308"
-                    transform="translate(82.3 -0.657)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_15"
-                    data-name="Path 15"
-                    d="M125.136,22.624s55.113-26.26,114.251,16.633c0,0,33.254,92.741-53.8,147.291,0,0-17.578-26.726-26.221-32.635"
-                    transform="translate(113.537 30.67)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_16"
-                    data-name="Path 16"
-                    d="M147.113,32.212s63.759,18.057,79.959,83.5c0,0-13.717,40.143-31.936,53.129"
-                    transform="translate(162.679 69.901)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_17"
-                    data-name="Path 17"
-                    d="M250.577,58.016S288.924,91.337,268.8,171.271c0,0-71.662,60.934-156.812-6.553"
-                    transform="translate(84.129 127.6)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_18"
-                    data-name="Path 18"
-                    d="M215,67.782s27.778,52.569,0,105.184c0,0-23.594,37.939-41.861,48.337,0,0-39.884,1.233-61.151-14.792"
-                    transform="translate(84.129 149.437)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_19"
-                    data-name="Path 19"
-                    d="M183.388,31.753s-88.01-15.345-132.007,86.82c0,0,17.6,60.067,82.736,82.975"
-                    transform="translate(-51.381 67.043)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_20"
-                    data-name="Path 20"
-                    d="M90.215,68.388s-49.6,79.441,43.686,153.705c0,0,73.351-9.216,99.9-55.724"
-                    transform="translate(5.998 150.792)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                  <path
-                    id="Path_21"
-                    data-name="Path 21"
-                    d="M62.484,74.042s-5.747,22.477,6.543,65.313c0,0,56.9,39.81,112.925,19.144"
-                    transform="translate(-29.555 163.434)"
-                    fill="none"
-                    stroke="#39001c"
-                    stroke-miterlimit="10"
-                    stroke-width="1.3"
-                  />
-                </g>
+                <path
+                  id="Path_7"
+                  data-name="Path 7"
+                  d="M76.986,102.7S73.546,36.125,132.167,1.409c0,0,39.069,1.806,55.511,12.64,0,0-75.264,34.609-61.333,125.73"
+                  transform="translate(5.788 1.025)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_8"
+                  data-name="Path 8"
+                  d="M241.393,76.408C142.678-2.2,67.79,87.857,67.79,87.857"
+                  transform="translate(-14.69 96.726)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_9"
+                  data-name="Path 9"
+                  d="M98.475,16.212s109.86,41.57,64.924,160.976"
+                  transform="translate(53.923 34.125)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_10"
+                  data-name="Path 10"
+                  d="M156.08,47.943s-109.3,55.543-42.764,168.911c0,0,52.747-21.8,68.251-63.662"
+                  transform="translate(39.082 105.076)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_11"
+                  data-name="Path 11"
+                  d="M101.764,55.628s21.021,110.617,148.424,93.722"
+                  transform="translate(61.277 122.26)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_12"
+                  data-name="Path 12"
+                  d="M106.525,149.27C241,147.956,237.866,35.883,237.866,35.883s-40.684-17.255-90.25,10.43"
+                  transform="translate(71.923 66.23)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_13"
+                  data-name="Path 13"
+                  d="M162.408,200S34.17,189.378,66.657,41.7c0,0,20.892-18.957,59.905-27.37"
+                  transform="translate(-29.015 29.918)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_14"
+                  data-name="Path 14"
+                  d="M175.916,99.453s-9.268-58.161-64.75-83.723c0,0,27.344-14.061,61.044-15.073,0,0,36.451,25.891,39.544,46.308"
+                  transform="translate(82.3 -0.657)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_15"
+                  data-name="Path 15"
+                  d="M125.136,22.624s55.113-26.26,114.251,16.633c0,0,33.254,92.741-53.8,147.291,0,0-17.578-26.726-26.221-32.635"
+                  transform="translate(113.537 30.67)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_16"
+                  data-name="Path 16"
+                  d="M147.113,32.212s63.759,18.057,79.959,83.5c0,0-13.717,40.143-31.936,53.129"
+                  transform="translate(162.679 69.901)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_17"
+                  data-name="Path 17"
+                  d="M250.577,58.016S288.924,91.337,268.8,171.271c0,0-71.662,60.934-156.812-6.553"
+                  transform="translate(84.129 127.6)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_18"
+                  data-name="Path 18"
+                  d="M215,67.782s27.778,52.569,0,105.184c0,0-23.594,37.939-41.861,48.337,0,0-39.884,1.233-61.151-14.792"
+                  transform="translate(84.129 149.437)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_19"
+                  data-name="Path 19"
+                  d="M183.388,31.753s-88.01-15.345-132.007,86.82c0,0,17.6,60.067,82.736,82.975"
+                  transform="translate(-51.381 67.043)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_20"
+                  data-name="Path 20"
+                  d="M90.215,68.388s-49.6,79.441,43.686,153.705c0,0,73.351-9.216,99.9-55.724"
+                  transform="translate(5.998 150.792)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
+                <path
+                  id="Path_21"
+                  data-name="Path 21"
+                  d="M62.484,74.042s-5.747,22.477,6.543,65.313c0,0,56.9,39.81,112.925,19.144"
+                  transform="translate(-29.555 163.434)"
+                  fill="none"
+                  stroke="#39001c"
+                  stroke-miterlimit="10"
+                  stroke-width="1.3"
+                />
               </g>
-            </svg>
-          </div>
+            </g>
+          </svg>
         </div>
       </div>
-      <div className="feature__container">
+      {/* <div className="feature__container">
         <div className="feature__container__text">
           <div className="feature__container__text__heading">Feature</div>
           <div className="feature__container__text__sub__heading">
@@ -410,12 +404,10 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="buttom_container">
-        <div className="buttom__img">
-          <img src={footer} alt="footer" />
-        </div>
-        <div className="buttom__contant__container">
+      </div> */}
+
+      <div className="buttom__contant__container">
+        <div className="buttom__sub__container">
           <div className="buttom__contant__heading">
             Feel Free To Contact Us
           </div>
@@ -427,6 +419,8 @@ function App() {
                   width="58.78"
                   height="64.978"
                   viewBox="0 0 58.78 64.978"
+                  stroke="currentColor"
+                  fill="none"
                 >
                   <g
                     id="Icon_feather-home"
@@ -438,8 +432,6 @@ function App() {
                       data-name="Path 4757"
                       d="M4.5,24.692,32.39,3,60.28,24.692V58.78a6.2,6.2,0,0,1-6.2,6.2H10.7a6.2,6.2,0,0,1-6.2-6.2Z"
                       transform="translate(0 0)"
-                      fill="none"
-                      stroke="#fff"
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="3"
@@ -449,8 +441,6 @@ function App() {
                       data-name="Path 4758"
                       d="M13.5,48.989V18H32.093V48.989"
                       transform="translate(9.593 15.989)"
-                      fill="none"
-                      stroke="#fff"
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="3"
@@ -477,7 +467,7 @@ function App() {
                     data-name="Icon zocial-call"
                     d="M3.386,14.043a4.161,4.161,0,0,1,1.059-2.26L12.919,3.31q.99-.847,1.483.282l6.85,12.852a1.849,1.849,0,0,1-.353,2.189L17.791,21.74a3.514,3.514,0,0,0-.989,2.189q0,2.118,2.189,5.437A46.433,46.433,0,0,0,23.3,35.018l2.189,2.257c.66.66,1.5,1.472,2.544,2.436a42.631,42.631,0,0,0,5.117,3.813q3.565,2.367,5.614,2.366a3.074,3.074,0,0,0,2.26-.918L44.7,41.3a1.552,1.552,0,0,1,2.116-.282l12.36,7.273a1.032,1.032,0,0,1,.565.741.9.9,0,0,1-.282.812l-8.474,8.474a4.15,4.15,0,0,1-2.257,1.057,17.083,17.083,0,0,1-7.805-.953,35.312,35.312,0,0,1-8.048-3.848q-3.707-2.4-6.885-4.87T20.9,45.467L19.067,43.7q-.705-.705-1.871-1.942t-4.065-4.87a70.919,70.919,0,0,1-5.014-7.1,41.4,41.4,0,0,1-3.672-7.874A16.75,16.75,0,0,1,3.386,14.043Z"
                     transform="translate(-3.267 -2.947)"
-                    fill="#ffff"
+                    fill="currentColor"
                   />
                 </svg>
               </div>
@@ -530,326 +520,133 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="footer__main__container">
-            <div className="footer__logo__sec">
-              <div className="footer__logo__signature">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="221.969"
-                  height="66.503"
-                  viewBox="0 0 221.969 66.503"
-                >
-                  <g
-                    id="Group_38"
-                    data-name="Group 38"
-                    transform="translate(-277.31 -35.344)"
-                  >
-                    <text
-                      id="SIGNATURE"
-                      transform="translate(362.28 72)"
-                      fill="#39001c"
-                      fontSize="27"
-                      font-family="SegoeUI, Segoe UI"
-                    >
-                      <tspan x="0" y="0">
-                        S
-                      </tspan>
-                      <tspan y="0" letterSpacing="-0.006em">
-                        I
-                      </tspan>
-                      <tspan y="0">G</tspan>
-                      <tspan y="0" letterSpacing="-0.001em">
-                        N
-                      </tspan>
-                      <tspan y="0" letterSpacing="-0.059em">
-                        A
-                      </tspan>
-                      <tspan y="0">TURE</tspan>
-                    </text>
-                    <g
-                      id="Group_3"
-                      data-name="Group 3"
-                      transform="translate(278 36)"
-                    >
-                      <path
-                        id="Path_7"
-                        data-name="Path 7"
-                        d="M76.955,19.111s-.6-11.634,9.644-17.7c0,0,6.828.316,9.7,2.209A20.471,20.471,0,0,0,85.581,25.591"
-                        transform="translate(-62.489 -0.984)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_8"
-                        data-name="Path 8"
-                        d="M98.13,49.836c-17.252-13.739-30.34,2-30.34,2"
-                        transform="translate(-58.51 -19.578)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_9"
-                        data-name="Path 9"
-                        d="M98.475,16.212s19.2,7.265,11.347,28.133"
-                        transform="translate(-71.841 -7.415)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_10"
-                        data-name="Path 10"
-                        d="M103.065,47.943s-19.1,9.707-7.474,29.52c0,0,9.218-3.81,11.928-11.126"
-                        transform="translate(-68.958 -21.201)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_11"
-                        data-name="Path 11"
-                        d="M101.764,55.628S105.438,74.96,127.7,72.007"
-                        transform="translate(-73.27 -24.539)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_12"
-                        data-name="Path 12"
-                        d="M106.525,51.315c23.5-.23,22.954-19.816,22.954-19.816s-7.11-3.016-15.773,1.823"
-                        transform="translate(-75.338 -13.653)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_13"
-                        data-name="Path 13"
-                        d="M79.039,46.78S56.628,44.923,62.305,19.114a24.119,24.119,0,0,1,10.469-4.783"
-                        transform="translate(-55.727 -6.598)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_14"
-                        data-name="Path 14"
-                        d="M122.482,17.923s-1.62-10.165-11.316-14.632A27.76,27.76,0,0,1,121.834.657s6.37,4.525,6.911,8.093"
-                        transform="translate(-77.355 -0.657)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_15"
-                        data-name="Path 15"
-                        d="M125.136,16.058s9.632-4.589,19.967,2.907c0,0,5.812,16.208-9.4,25.741,0,0-3.072-4.671-4.583-5.7"
-                        transform="translate(-83.424 -6.744)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_16"
-                        data-name="Path 16"
-                        d="M147.113,32.212s11.143,3.156,13.974,14.593c0,0-2.4,7.016-5.581,9.285"
-                        transform="translate(-92.972 -14.366)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_17"
-                        data-name="Path 17"
-                        d="M136.205,58.016s6.7,5.823,3.184,19.793c0,0-12.524,10.649-27.405-1.145"
-                        transform="translate(-77.71 -25.577)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_18"
-                        data-name="Path 18"
-                        d="M129.987,67.782s4.855,9.187,0,18.383c0,0-4.123,6.63-7.316,8.448,0,0-6.97.215-10.687-2.585"
-                        transform="translate(-77.71 -29.82)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_19"
-                        data-name="Path 19"
-                        d="M74.451,31.077S59.07,28.4,51.381,46.25a23.807,23.807,0,0,0,14.459,14.5"
-                        transform="translate(-51.381 -13.811)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_20"
-                        data-name="Path 20"
-                        d="M79.344,68.388S70.676,82.272,86.979,95.25c0,0,12.819-1.611,17.46-9.739"
-                        transform="translate(-62.53 -30.083)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                      <path
-                        id="Path_21"
-                        data-name="Path 21"
-                        d="M61.377,74.042s-1,3.928,1.144,11.414c0,0,9.945,6.957,19.735,3.346"
-                        transform="translate(-55.622 -32.539)"
-                        fill="none"
-                        stroke="#af9131"
-                        stroke-miterlimit="10"
-                        stroke-width="1.3"
-                      />
-                    </g>
-                    <text
-                      id="HOTELS_MURREE"
-                      data-name="HOTELS MURREE"
-                      transform="translate(362 86)"
-                      fill="#59595b"
-                      fontSize="11"
-                      font-family="SegoeUI-Light, Segoe UI"
-                      font-weight="300"
-                      letterSpacing="0.053em"
-                    >
-                      <tspan x="0" y="0">
-                        HOTELS MURREE
-                      </tspan>
-                    </text>
-                  </g>
-                </svg>
-              </div>
-              <div className="footer__logo__sec__contant">
-                Signature Hotels Murree is a merger of international standards
-                and our legacy of hospitality. The exalted high rise presents
-                you exquisite residences matching international standards in
-                luxe and comfort.
-              </div>
-            </div>
-            <div className="footer__pages__links__section">
-              <div className="footer__pages__links__section__heading">
-                Pages
-              </div>
-              <div className="footer__pages__link">
-                <a href="#" className="footer__page__sub__link">
-                  About Us
-                </a>
-              </div>
-              <div className="footer__pages__link">
-                <a href="#" className="footer__page__sub__link">
-                  Amenities
-                </a>
-              </div>
-              <div className="footer__pages__link">
-                <a href="#" className="footer__page__sub__link">
-                  Location
-                </a>
-              </div>
-              <div className="footer__pages__link">
-                <a href="#" className="footer__page__sub__link">
-                  Feature
-                </a>
-              </div>
-            </div>
-            <div className="quick__linK__section">
-              <div className="quick__linK__section__heading">Quick Links</div>
-              <div className="quick__sub__link">
-                <a href="#" className="quick__sub__link__detail">
-                  Contact Us
-                </a>
-              </div>
-              <div className="quick__sub__link">
-                <a href="#" className="quick__sub__link__detail">
-                  Terms & Conditions
-                </a>
-              </div>
-              <div className="quick__sub__link">
-                <a href="#" className="quick__sub__link__detail">
-                  Privacy Policy
-                </a>
-              </div>
-            </div>
-            <div className="mailing__container">
-              <div className="mailing__container__heading">Mailing List</div>
-              <div className="mailing__container__sub__heading">
-                Sign Up for our mailing list to get latest. Update and offers
-              </div>
-              <div className="mail__input__bar">
-                <input
-                  type="text"
-                  className="mail__input__style"
-                  placeholder="Email..."
+        </div>
+      </div>
+
+      <div className="footer__img__container">
+        <div className="footer__img">
+          <img src={sky} alt="footer" />
+        </div>
+        <div className="footer__main__container">
+          <div className="footer__logo__sec">
+            <div className="footer__logo__signature">
+              <svg width="250" height="300" viewBox="0 0 371.21 113.485">
+                <path
+                  id="Union_2"
+                  data-name="Union 2"
+                  d="M42.361,113.315A51.2,51.2,0,0,1,29.823,99.34a44.529,44.529,0,0,1-6.811-1.793,47.9,47.9,0,0,1-10.823-5.291L12,92.124l-.064-.221A56.23,56.23,0,0,1,9.542,77.077a25.2,25.2,0,0,1,.343-4.784,42.609,42.609,0,0,1-4.631-5.543A38,38,0,0,1,.066,56.665L0,56.44l.093-.215a50.414,50.414,0,0,1,9.97-15.37,57.641,57.641,0,0,1,1.313-18.8l.044-.2.154-.139A28.971,28.971,0,0,1,16.3,18.466a47.687,47.687,0,0,1,13.3-5.072,33.71,33.71,0,0,1,2.027-3.218A33.244,33.244,0,0,1,41.85.829l.167-.1.193.009c.03,0,3.013.143,6.562.686,4.58.7,7.989,1.715,10.144,3.021A44.318,44.318,0,0,1,64.052,2.42,47.607,47.607,0,0,1,77.217.006L77.435,0l.178.126a57.646,57.646,0,0,1,5.669,4.72c3.644,3.462,5.79,6.523,6.388,9.107a35.793,35.793,0,0,1,4.459.883,39.546,39.546,0,0,1,13.089,6.326l.162.118.067.189a32.631,32.631,0,0,1,1.182,4.716,44.147,44.147,0,0,1,.582,11.556q-.088,1.026-.227,2.033a35.54,35.54,0,0,1,3.632,4.089,34.058,34.058,0,0,1,5.926,12.464l.046.185-.062.181a62.621,62.621,0,0,1-2.778,6.6c-2.224,4.543-4.494,7.725-6.752,9.466q.124,1.126.186,2.286A52.931,52.931,0,0,1,107.466,90.7l-.05.2-.158.135a28.433,28.433,0,0,1-3.864,2.614A39.142,39.142,0,0,1,93.009,97.8q-.977.232-1.958.41c-.489.768-2.076,3.215-4.112,5.9-3.319,4.375-6.2,7.273-8.552,8.614l-.14.079-.161.005c-.032,0-.258.007-.643.007a48.7,48.7,0,0,1-6.261-.429,36.391,36.391,0,0,1-6.133-1.328,19.569,19.569,0,0,1-5.568-2.683q-2.114,1.025-4.457,1.9a59.372,59.372,0,0,1-12.176,3.171l-.272.034Zm.592-1.191a60.306,60.306,0,0,0,11.641-3.071c5.648-2.12,13.139-6.024,17.262-12.669a46.877,46.877,0,0,1-11.968-6.817,44.738,44.738,0,0,1-4.473,3.593,49.077,49.077,0,0,1-8.642,4.922l-.023.009h0l-.013,0-.487.2-.014-.022a30.422,30.422,0,0,1-10.021,1.645q-1.065,0-2.147-.067-1.255-.078-2.534-.248A50.454,50.454,0,0,0,42.953,112.124ZM65.121,105.1a40.037,40.037,0,0,1-4.317,2.61c3.148,2.041,7.414,2.97,10.55,3.39a46.838,46.838,0,0,0,6.53.415c4.226-2.507,9.486-10.073,11.441-13.031a35.2,35.2,0,0,1-11.607-.4,37.185,37.185,0,0,1-4.613-1.249A27.565,27.565,0,0,1,65.121,105.1Zm-36.8-34.158a32.827,32.827,0,0,0-2,10.453,32.267,32.267,0,0,0,4.352,16.76,31.179,31.179,0,0,0,14.9-1.026c-5.386-9.444-7.248-18.428-5.549-26.757a39.553,39.553,0,0,1-8.2-2.093q-1-.369-1.967-.785A27.581,27.581,0,0,0,28.323,70.942Zm-17.481,6.2a54.808,54.808,0,0,0,2.28,14.179,48.492,48.492,0,0,0,10.351,5.014A43.5,43.5,0,0,0,29,97.851q-.37-.7-.706-1.413A33.2,33.2,0,0,1,25.016,81.93,40.752,40.752,0,0,1,13.01,75.135Q11.994,74.3,11.03,73.4A27.625,27.625,0,0,0,10.842,77.139Zm51.52,9.932q-.722.8-1.52,1.589c11.41,8.721,21.911,9.58,29.389,8.373A31.742,31.742,0,0,0,93.7,83.086a58.509,58.509,0,0,1-7,.436,41.9,41.9,0,0,1-15.722-2.833,34.922,34.922,0,0,1-3.508-1.641A27.046,27.046,0,0,1,62.362,87.071ZM91.5,66.224a38.878,38.878,0,0,1,2.932,9.535,37.042,37.042,0,0,1,.4,10.314,32.668,32.668,0,0,1-3,10.664q.42-.089.824-.185a37.8,37.8,0,0,0,10.043-4,29.566,29.566,0,0,0,3.562-2.379c3-12.09,1.409-20.46-.465-25.361a22.871,22.871,0,0,0-4.378-7.357A41.48,41.48,0,0,1,91.5,66.224ZM41.873,68.3c-2.544,8.7-.887,18.235,4.923,28.35a50.592,50.592,0,0,0,7.894-4.571c4-2.831,9.239-7.486,11.642-13.676a34.748,34.748,0,0,1-9.155-7.832,41.024,41.024,0,0,1-6.468-11.058,37.388,37.388,0,0,1-1.351-4.09A32.985,32.985,0,0,0,41.873,68.3Zm31.388-5.52A51.536,51.536,0,0,1,55.519,66.1a37.077,37.077,0,0,0,2.693,3.685c8.2,9.858,20.139,13.891,35.492,11.992a38.026,38.026,0,0,0-3.611-15.46c-.326-.491-4.721-7.1-7.232-9.25A34.26,34.26,0,0,1,73.261,62.782ZM1.382,56.517a38.6,38.6,0,0,0,4.964,9.527A39.907,39.907,0,0,0,25.052,80.557a34.2,34.2,0,0,1,2.073-10.123,28.917,28.917,0,0,1,1.54-3.475A36.4,36.4,0,0,1,23.784,64.2,31.17,31.17,0,0,1,16.1,56.886a32.173,32.173,0,0,1-5.737-13.918c-.024-.143-.048-.286-.07-.43A49.225,49.225,0,0,0,1.382,56.517ZM104.8,52.461a35.059,35.059,0,0,1-2.573,3.958,23.5,23.5,0,0,1,4.749,7.845,33.25,33.25,0,0,1,1.822,6.97c4.476-4.012,7.935-13.373,8.438-14.784a32.962,32.962,0,0,0-8.5-15.083A35.68,35.68,0,0,1,104.8,52.461ZM31.925,46.167A41.485,41.485,0,0,0,21.1,52.774a36.943,36.943,0,0,0-3.759,3.6A32.949,32.949,0,0,0,32.229,67.043,38.518,38.518,0,0,0,40.31,69.1q.147-.589.318-1.172a32.412,32.412,0,0,1,4.7-9.594,40.3,40.3,0,0,1,6.136-6.8,43.146,43.146,0,0,1,6.518-4.8,33.3,33.3,0,0,0-13.7-3.062A32.576,32.576,0,0,0,31.925,46.167Zm61.553-6.813A36.44,36.44,0,0,1,90.7,46.978,32.2,32.2,0,0,1,85.1,54.962q-.612.635-1.258,1.235c2.365,2.121,5.878,7.225,7.006,8.9,9.543-6.152,15.17-14.494,16.759-24.835a36.9,36.9,0,0,0-3.917-3.189A38.741,38.741,0,0,0,94.5,32.261,35.829,35.829,0,0,1,93.478,39.354ZM52.3,52.527c-.6.534-1.229,1.127-1.874,1.778a34.2,34.2,0,0,0,1.516,4.784,41.009,41.009,0,0,0,2.793,5.727,58.584,58.584,0,0,0,10.815-1.108A50.664,50.664,0,0,0,68.3,53.1a50.537,50.537,0,0,0-8.882-5.7A40.876,40.876,0,0,0,52.3,52.527ZM67.364,34.89a31.9,31.9,0,0,1,1.976,6.483c1.29,6.7.518,14.1-2.291,22a34.135,34.135,0,0,0,17.1-9.3A32.962,32.962,0,0,0,92.2,39.093a34.189,34.189,0,0,0,1.008-7.276,27.021,27.021,0,0,0-7.424-1.357c-.486-.024-1-.038-1.546-.038A35.1,35.1,0,0,0,67.364,34.89ZM36,30.78A35.465,35.465,0,0,0,11.43,41.358,31.541,31.541,0,0,0,16.563,55.3a38.7,38.7,0,0,1,3.662-3.487,42.843,42.843,0,0,1,11.163-6.83,34.715,34.715,0,0,1,8.341-2.273,41.239,41.239,0,0,1-.078-11.781,27.782,27.782,0,0,0-3.014-.154Q36.33,30.774,36,30.78ZM48.271,42.646c6.8.85,13.6,3.86,20.212,8.951A31.4,31.4,0,0,0,60.9,27a40.681,40.681,0,0,0-9.712-8.105,37.349,37.349,0,0,0-4.444-2.306C41.5,23.9,39.577,32.62,41.02,42.554q1.6-.159,3.209-.159A32.574,32.574,0,0,1,48.271,42.646ZM16.983,19.571A30.513,30.513,0,0,0,12.6,22.547a57.2,57.2,0,0,0-1.353,17.141q.394-.373.8-.733a36.852,36.852,0,0,1,12.881-7.544A37.755,37.755,0,0,1,26.65,20.344,37,37,0,0,1,28.8,14.915,46.124,46.124,0,0,0,16.983,19.571Zm68.932,9.594a26.424,26.424,0,0,1,8.17,1.592,37.9,37.9,0,0,1,10.35,5.257,38.836,38.836,0,0,1,3.377,2.674q.058-.525.1-1.057a41.716,41.716,0,0,0-1.63-15.537A35.995,35.995,0,0,0,83.021,15a31.979,31.979,0,0,0-9.564,1.98,38.366,38.366,0,0,1,1.991,3.385,37.606,37.606,0,0,1,3.4,9.182A34.151,34.151,0,0,1,84.2,29.12Q85.059,29.12,85.915,29.165ZM48.542,14.283q-.517.609-1,1.232a39.241,39.241,0,0,1,4.271,2.237,42.011,42.011,0,0,1,10.037,8.359,33.792,33.792,0,0,1,4.981,7.59,38.014,38.014,0,0,1,10.285-3.836c.151-.031.3-.063.454-.093a36.918,36.918,0,0,0-3.3-8.852A33.673,33.673,0,0,0,58.884,5.91,35.655,35.655,0,0,0,48.542,14.283ZM27.893,20.727A37.4,37.4,0,0,0,26.225,31a37.394,37.394,0,0,1,9.814-1.519,29.5,29.5,0,0,1,3.82.162A34.179,34.179,0,0,1,47.588,13.4a38.292,38.292,0,0,1,7.451-6.691c.947-.646,1.759-1.136,2.368-1.48l-.014-.006.125-.064C52.731,2.737,43.771,2.13,42.344,2.048A32.638,32.638,0,0,0,27.893,20.727ZM64.487,3.645c-1.762.581-3.172,1.153-4.1,1.557a33.664,33.664,0,0,1,9.037,6.716A35.52,35.52,0,0,1,72.7,15.877,32.585,32.585,0,0,1,82.948,13.7a35.653,35.653,0,0,1,5.335.1c-.684-2.227-2.7-4.972-5.9-8.006a57.918,57.918,0,0,0-5.351-4.476A46.467,46.467,0,0,0,64.487,3.645ZM234.761,80.814V73.053h.861V80.69q0,4.386,3.568,4.386,3.455,0,3.454-4.262V73.053h.861V80.62q0,5.256-4.482,5.256Q234.761,85.876,234.761,80.814Zm-30.675,4.86a4.875,4.875,0,0,1-1.3-.465v-.994a5.058,5.058,0,0,0,2.742.861,3.528,3.528,0,0,0,2.241-.611,2.064,2.064,0,0,0,.764-1.709,2.231,2.231,0,0,0-.514-1.543,10.174,10.174,0,0,0-2.227-1.569,7.936,7.936,0,0,1-2.426-1.868,3.024,3.024,0,0,1-.509-1.736,2.938,2.938,0,0,1,1.037-2.268,3.988,3.988,0,0,1,2.768-.932,7.023,7.023,0,0,1,2.25.378v.914a5.67,5.67,0,0,0-2.364-.5,3,3,0,0,0-2.034.651,2.089,2.089,0,0,0-.751,1.652,2.212,2.212,0,0,0,.514,1.538,10.159,10.159,0,0,0,2.219,1.555,7.95,7.95,0,0,1,2.351,1.78,2.9,2.9,0,0,1,.585,1.788,3.046,3.046,0,0,1-1.007,2.364,4.079,4.079,0,0,1-2.843.914A6.546,6.546,0,0,1,204.086,85.674ZM161.369,84.1a6.664,6.664,0,0,1-1.586-4.614,6.957,6.957,0,0,1,1.63-4.829,5.685,5.685,0,0,1,4.452-1.815,5.3,5.3,0,0,1,4.126,1.745,6.56,6.56,0,0,1,1.577,4.575,7.08,7.08,0,0,1-1.616,4.922,5.539,5.539,0,0,1-4.325,1.793A5.43,5.43,0,0,1,161.369,84.1Zm.73-8.877a6.938,6.938,0,0,0-.075,8.31,4.518,4.518,0,0,0,3.586,1.543,4.713,4.713,0,0,0,3.7-1.525,6.159,6.159,0,0,0,1.362-4.25,6.065,6.065,0,0,0-1.331-4.171,5.017,5.017,0,0,0-7.242.093ZM279.384,85.657v-12.6h5.889v.8h-5.018v5.054h4.658V79.7h-4.658v5.168h5.308v.791Zm-9.954,0v-12.6h5.889v.8H270.3v5.054h4.658V79.7H270.3v5.168h5.308v.791Zm-4.5,0-1.679-3.692a4.016,4.016,0,0,0-1.037-1.534,2.1,2.1,0,0,0-1.3-.392h-1.564v5.617h-.87v-12.6h3.5a3.663,3.663,0,0,1,2.623.9,3.116,3.116,0,0,1,.954,2.377,3.384,3.384,0,0,1-.782,2.277,3.657,3.657,0,0,1-2.189,1.177v.035a3.4,3.4,0,0,1,1.459,1.82l1.872,4.017Zm-5.581-6.408h2.171a3.317,3.317,0,0,0,2.29-.755,2.638,2.638,0,0,0,.848-2.075,2.394,2.394,0,0,0-.765-1.885,3.186,3.186,0,0,0-2.188-.681h-2.355Zm-5.367,6.408-1.679-3.692a4.016,4.016,0,0,0-1.037-1.534,2.1,2.1,0,0,0-1.3-.392h-1.564v5.617h-.87v-12.6h3.5a3.663,3.663,0,0,1,2.624.9,3.119,3.119,0,0,1,.954,2.377,3.38,3.38,0,0,1-.783,2.277,3.654,3.654,0,0,1-2.188,1.177v.035a3.406,3.406,0,0,1,1.459,1.82l1.872,4.017Zm-5.581-6.408h2.171a3.314,3.314,0,0,0,2.29-.755,2.638,2.638,0,0,0,.848-2.075,2.4,2.4,0,0,0-.764-1.885,3.188,3.188,0,0,0-2.189-.681h-2.355ZM229.9,85.657V76.709q0-.325.1-1.854h-.035q-.273.711-.457,1.1l-4.482,9.7h-.282l-4.5-9.651a7.361,7.361,0,0,1-.413-1.186h-.043q.061.844.061,1.678v9.158h-.87v-12.6h.809l4.7,10.151a2.2,2.2,0,0,1,.1.238c.035.1.073.2.114.3q.088.228.185.509h.052l.1-.281q.008-.035.3-.835l4.631-10.081h.773v12.6Zm-35.909,0v-12.6h.87V84.866h5.053v.791Zm-9.954,0v-12.6h5.889v.8H184.9v5.054h4.658V79.7H184.9v5.168h5.308v.791Zm-7.6,0v-11.8H172.8v-.8h8.139v.8H177.3v11.8Zm-21.042,0V79.61h-7.215v6.047h-.87v-12.6h.87v5.765h7.215V73.053h.861v12.6ZM296.284,49.79V30.52h3.691V49.549q0,9.689,8.174,9.689,7.888,0,7.888-9.36V30.52h3.692V49.285q0,13.271-11.975,13.271Q296.284,62.556,296.284,49.79ZM187.571,58.206q-4.163-4.351-4.163-11.514a16.384,16.384,0,0,1,4.625-12.008,15.768,15.768,0,0,1,11.723-4.692,19.951,19.951,0,0,1,8.635,1.67V35.75a16.58,16.58,0,0,0-9.053-2.417,11.31,11.31,0,0,0-8.68,3.648,13.341,13.341,0,0,0-3.383,9.448q0,5.976,3.142,9.393a11.012,11.012,0,0,0,8.526,3.416,13.177,13.177,0,0,0,6.394-1.472V48.933h-6.9v-3.34h10.591V59.875a21.069,21.069,0,0,1-10.547,2.681A14.412,14.412,0,0,1,187.571,58.206Zm-33.139,4.23q-1.1-.122-2.242-.352a18.366,18.366,0,0,1-2.164-.571,6.737,6.737,0,0,1-1.637-.758V56.4a8.41,8.41,0,0,0,1.791,1.186,14.527,14.527,0,0,0,2.2.89,17.478,17.478,0,0,0,2.318.561,12.958,12.958,0,0,0,2.153.2,8.44,8.44,0,0,0,5.087-1.263,4.739,4.739,0,0,0,1.12-5.856,6.3,6.3,0,0,0-1.549-1.724,15.339,15.339,0,0,0-2.34-1.495q-1.351-.713-2.911-1.5-1.648-.834-3.076-1.692a13.358,13.358,0,0,1-2.483-1.889,7.9,7.9,0,0,1-1.659-2.34,7.984,7.984,0,0,1,.34-6.812,8.108,8.108,0,0,1,2.483-2.625,11.261,11.261,0,0,1,3.5-1.538,16.023,16.023,0,0,1,4.01-.506q4.657,0,6.79,1.121v4.154A12.3,12.3,0,0,0,159,33.332a11.8,11.8,0,0,0-2.417.253,6.826,6.826,0,0,0-2.153.824,4.777,4.777,0,0,0-1.538,1.472,3.9,3.9,0,0,0-.593,2.2,4.519,4.519,0,0,0,.45,2.087,5.119,5.119,0,0,0,1.329,1.6,13.3,13.3,0,0,0,2.142,1.407q1.264.68,2.911,1.494,1.693.834,3.209,1.758A14.671,14.671,0,0,1,165,48.471a9.08,9.08,0,0,1,1.813,2.483,6.986,6.986,0,0,1,.671,3.12,7.906,7.906,0,0,1-.913,3.944,7.473,7.473,0,0,1-2.461,2.626,10.727,10.727,0,0,1-3.57,1.461,19.539,19.539,0,0,1-4.263.451A17.484,17.484,0,0,1,154.432,62.436Zm200.079-.407V30.52h16v3.34H358.2V44.341h11.381v3.317H358.2v11.03H371.21v3.34Zm-8.723,0L340.514,53.2a19.332,19.332,0,0,0-1.406-2.1,8.062,8.062,0,0,0-1.395-1.417,4.831,4.831,0,0,0-1.538-.8,6.332,6.332,0,0,0-1.857-.253h-3.033v13.4h-3.691V30.52H337a13.387,13.387,0,0,1,3.812.517,8.523,8.523,0,0,1,3.032,1.571,7.307,7.307,0,0,1,2.011,2.626,8.709,8.709,0,0,1,.725,3.68,8.865,8.865,0,0,1-.5,3.021,7.889,7.889,0,0,1-1.406,2.45,8.524,8.524,0,0,1-2.2,1.835,11.192,11.192,0,0,1-2.889,1.175v.088a6.63,6.63,0,0,1,1.373.8,7.591,7.591,0,0,1,1.11,1.066,14.131,14.131,0,0,1,1.043,1.4q.517.78,1.154,1.813l5.91,9.471Zm-14.5-16.744h5.01a7.6,7.6,0,0,0,2.56-.417,5.925,5.925,0,0,0,2.032-1.2,5.432,5.432,0,0,0,1.341-1.912,6.4,6.4,0,0,0,.483-2.538,4.94,4.94,0,0,0-1.637-3.944,7.031,7.031,0,0,0-4.735-1.417h-5.054ZM278.947,62.029V33.86h-9.075V30.52h21.863v3.34h-9.1V62.029Zm-8.683,0-3.34-8.833H253.565l-3.142,8.833h-4.109L258.4,30.52h3.823l12.128,31.509ZM259.7,36.453l-4.9,13.425h10.921l-4.944-13.425a12.84,12.84,0,0,1-.484-2.11H260.2A11.758,11.758,0,0,1,259.7,36.453ZM237.218,62.029,221,36.914a10.543,10.543,0,0,1-1.011-1.978h-.131a32.5,32.5,0,0,1,.175,4.329V62.029h-3.692V30.52h4.791l15.776,24.719q.988,1.538,1.274,2.11h.088a33.318,33.318,0,0,1-.22-4.637V30.52h3.691V62.029Zm-63.451,0V30.52h3.692V62.029Z"
+                  fill="#39001c"
                 />
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="47"
-                  height="47"
-                  viewBox="0 0 47 47"
+              </svg>
+            </div>
+            <div className="footer__logo__sec__contant">
+              Signature Hotels Murree is a merger of international standards and
+              our legacy of hospitality. The exalted high rise presents you
+              exquisite residences matching international standards in luxe and
+              comfort.
+            </div>
+          </div>
+          <div className="footer__pages__links__section">
+            <div className="footer__pages__links__section__heading">Pages</div>
+            <div className="footer__pages__link">
+              <a href="#" className="footer__page__sub__link">
+                About Us
+              </a>
+            </div>
+            <div className="footer__pages__link">
+              <a href="#" className="footer__page__sub__link">
+                Amenities
+              </a>
+            </div>
+            <div className="footer__pages__link">
+              <a href="#" className="footer__page__sub__link">
+                Location
+              </a>
+            </div>
+            <div className="footer__pages__link">
+              <a href="#" className="footer__page__sub__link">
+                Feature
+              </a>
+            </div>
+          </div>
+          <div className="quick__linK__section">
+            <div className="quick__linK__section__heading">Quick Links</div>
+            <div className="quick__sub__link">
+              <a href="#" className="quick__sub__link__detail">
+                Contact Us
+              </a>
+            </div>
+            <div className="quick__sub__link">
+              <a href="#" className="quick__sub__link__detail">
+                Terms & Conditions
+              </a>
+            </div>
+            <div className="quick__sub__link">
+              <a href="#" className="quick__sub__link__detail">
+                Privacy Policy
+              </a>
+            </div>
+          </div>
+          <div className="mailing__container">
+            <div className="mailing__container__heading">Mailing List</div>
+            <div className="mailing__container__sub__heading">
+              Sign Up for our mailing list to get latest. Update and offers
+            </div>
+            <div className="mail__input__bar">
+              <input
+                type="text"
+                className="mail__input__style"
+                placeholder="Email..."
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="47"
+                height="47"
+                viewBox="0 0 47 47"
+              >
+                <g
+                  id="Group_77"
+                  data-name="Group 77"
+                  transform="translate(-3689 6188)"
                 >
+                  <circle
+                    id="Ellipse_2"
+                    data-name="Ellipse 2"
+                    cx="23.5"
+                    cy="23.5"
+                    r="23.5"
+                    transform="translate(3689 -6188)"
+                    fill="#39001c"
+                  />
                   <g
-                    id="Group_77"
-                    data-name="Group 77"
-                    transform="translate(-3689 6188)"
+                    id="Icon_feather-arrow-left"
+                    data-name="Icon feather-arrow-left"
+                    transform="translate(3720.215 -6156.143) rotate(180)"
                   >
-                    <circle
-                      id="Ellipse_2"
-                      data-name="Ellipse 2"
-                      cx="23.5"
-                      cy="23.5"
-                      r="23.5"
-                      transform="translate(3689 -6188)"
-                      fill="#39001c"
+                    <path
+                      id="Path_4748"
+                      data-name="Path 4748"
+                      d="M15.715,0H0"
+                      transform="translate(0 7.857)"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
                     />
-                    <g
-                      id="Icon_feather-arrow-left"
-                      data-name="Icon feather-arrow-left"
-                      transform="translate(3720.215 -6156.143) rotate(180)"
-                    >
-                      <path
-                        id="Path_4748"
-                        data-name="Path 4748"
-                        d="M15.715,0H0"
-                        transform="translate(0 7.857)"
-                        fill="none"
-                        stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      />
-                      <path
-                        id="Path_4749"
-                        data-name="Path 4749"
-                        d="M7.857,15.715,0,7.857,7.857,0"
-                        fill="none"
-                        stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      />
-                    </g>
+                    <path
+                      id="Path_4749"
+                      data-name="Path 4749"
+                      d="M7.857,15.715,0,7.857,7.857,0"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
                   </g>
-                </svg> */}
-              </div>
+                </g>
+              </svg>
             </div>
           </div>
         </div>
