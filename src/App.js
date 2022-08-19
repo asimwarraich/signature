@@ -1,7 +1,6 @@
 import React from "react";
 import "./style/global.scss";
 import main from "./assets/main.png";
-import logo from "./assets/logo.png";
 
 import Hader from "./components/Hader";
 import signature from "./assets/signature.png";

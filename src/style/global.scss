@@ -199,10 +199,6 @@ body {
   font-size: 16px;
   width: 100%;
 }
-.freshness__container__sign__logo {
-  display: flex;
-  justify-content: center;
-}
 .freshness__container__sign__logo svg {
   height: 190px;
 }
@@ -363,7 +359,7 @@ body {
 }
 .footer__main__container {
   position: absolute;
-  top: 67%;
+  top: 50%;
   left: 0;
   right: 0;
   width: 100%;
@@ -463,14 +459,14 @@ body {
 }
 @media (max-width: 400px) {
   .signature__contant__nav__menu {
-    margin: 8px;
-    padding: 7px;
+    margin: 2px;
+    padding: 4px;
   }
   .signature__header__logo {
-    margin: 12px;
+    margin: 5px;
   }
   .signature__header__logo svg {
-    height: 60px;
+    height: 30px;
   }
   .sign__nav__bar__wraper {
     padding: 12px 20px;
@@ -503,12 +499,15 @@ body {
     height: 50px;
     width: 162px;
   }
+  .buttom__contant__heading {
+    font-size: 18px;
+  }
+  .footer__logo__sec {
+    width: 90% !important;
+  }
 }
 
 @media (max-width: 550px) {
-  .buttom__contant__card__wraper {
-    flex-direction: column;
-  }
   .sign__header__contant {
     text-align: center;
   }
@@ -545,6 +544,9 @@ body {
   }
   .freshness__container__contant__heading {
     font-size: 20px !important;
+  }
+  .mailing__container {
+    margin-top: 7px !important;
   }
 }
 @media (max-width: 750px) {
@@ -621,6 +623,7 @@ body {
   }
   .footer__main__container {
     flex-direction: column;
+    margin-top: -5em;
   }
   .footer__logo__sec {
     margin-bottom: 2em;
@@ -635,6 +638,9 @@ body {
   .footer__img img {
     height: 130vh !important;
     object-fit: cover;
+  }
+  .buttom__contant__card__wraper {
+    flex-direction: column;
   }
 }
 @media (max-width: 850px) {
@@ -731,14 +737,10 @@ body {
     margin-top: 2em;
     width: 45%;
   }
-  .footer__img img {
-    height: 75vh !important;
-    object-fit: cover;
-  }
 }
 @media (max-width: 940px) {
   .footer__img img {
-    height: 55vh;
+    height: 75vh;
     object-fit: cover;
   }
 }
