@@ -27,7 +27,13 @@ export default function Hader() {
   }, []);
   return (
     <>
-      <div className="sign__nav__bar__wraper">
+      <div
+        className={
+          isScrolling
+            ? "sign__nav__bar__wraper sign__nav__bar__wraper__active"
+            : "sign__nav__bar__wraper"
+        }
+      >
         <div className="signature__header__logo">
           <svg
             xmlns="http://www.w3.org/2000/svg"

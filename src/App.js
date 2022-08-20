@@ -368,7 +368,7 @@ function App() {
           </svg>
         </div>
       </div>
-      {/* <div className="feature__container">
+      <div className="feature__container">
         <div className="feature__container__text">
           <div className="feature__container__text__heading">Feature</div>
           <div className="feature__container__text__sub__heading">
@@ -382,29 +382,28 @@ function App() {
             <div className="feature__img__card__one">
               <img src={cardone} alt="feature__first" />
             </div>
-            <div className="feature__img__card__two">
+            <div className="feature__img__card__one">
               <img src={cardtow} alt="feature__first" />
             </div>
           </div>
           <div className="feature__img__sec__card__wraper">
-            <div className="feature__img__card__three">
+            <div className="feature__img__card__one">
               <img src={carthri} alt="feature__first" />
             </div>
-            <div className="feature__img__card__four">
+            <div className="feature__img__card__one">
               <img src={crdgim} alt="feature__first" />
             </div>
           </div>
           <div className="feature__img__thr__card__wraper">
-            <div className="feature__img__card__five">
+            <div className="feature__img__card__one">
               <img src={crdfiv} alt="feature__first" />
             </div>
-            <div className="feature__img__card__six">
+            <div className="feature__img__card__one">
               <img src={cardcar} alt="feature__first" />
             </div>
           </div>
         </div>
-      </div> */}
-
+      </div>
       <div className="buttom__contant__container">
         <div className="buttom__sub__container">
           <div className="buttom__contant__heading">
@@ -521,7 +520,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="footer__img__container">
         <div className="footer__img">
           <img src={sky} alt="footer" />

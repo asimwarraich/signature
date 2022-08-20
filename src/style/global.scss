@@ -1,13 +1,11 @@
 * {
   box-sizing: border-box;
-
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap");
 }
 body {
   padding: 0;
   margin: 0;
   // background-color: #83adcd;
-  font-family: "Roboto", sans-serif;
+  font-family: "El Messiri", sans-serif;
 }
 .signature__contant__nav__menu {
   background-color: #511b3b;
@@ -45,7 +43,10 @@ body {
   position: fixed;
   z-index: 999;
 }
-
+.sign__nav__bar__wraper__active {
+  background-color: rgb(255, 255, 255);
+  padding: 1em;
+}
 .sign__nav__link {
   text-decoration: none;
   padding: 1em;
@@ -204,91 +205,51 @@ body {
 }
 .feature__container {
   width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 1em;
-  padding-top: 7em;
-  background-color: #fff;
+  margin-top: 3em;
 }
 .feature__container__text {
-  // margin-left: 8em;
-  padding-left: 3em;
+  width: 55%;
+  padding-bottom: 2em;
 }
 .feature__container__text__heading {
-  font-size: 30px;
-  font-weight: 600px;
-  color: #511b3b;
+  font-size: 24px;
+  font-weight: bold;
 }
 .feature__container__text__sub__heading {
-  font-size: 16px;
-  width: 50%;
+  font-size: 20px;
+  font-weight: lighter;
 }
 .feature__cards__wraper {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   width: 100%;
-  margin-top: 7em;
+  align-items: center;
   justify-content: center;
 }
 .feature__img__first__card__wraper {
-  width: 25%;
+  width: 35%;
 }
 .feature__img__sec__card__wraper {
-  width: 25%;
+  width: 35%;
   position: relative;
-  margin-top: -6em;
+  margin-top: -3em;
 }
 .feature__img__thr__card__wraper {
-  width: 25%;
+  width: 35%;
   position: relative;
-  margin-top: -20em;
+  margin-top: -10em;
 }
 .feature__img__card__one {
-  width: 25%;
+  margin: 1em;
+  width: 90%;
 }
 .feature__img__card__one img {
-  height: 300px;
-  min-height: 200px;
-  width: 300px;
-}
-.feature__img__card__two {
-  width: 25%;
-}
-.feature__img__card__two img {
-  height: 200px;
-  width: 300px;
-  margin-top: 1em;
-}
-.feature__img__card__three {
-  width: 25%;
-}
-.feature__img__card__three img {
-  height: 340px;
-  width: 300px;
-}
-.feature__img__card__four {
-  width: 25%;
-}
-.feature__img__card__four img {
-  height: 270px;
-  width: 300px;
-  margin-top: 1em;
-}
-.feature__img__card__five {
-  width: 25%;
-}
-.feature__img__card__five img {
-  height: 300px;
-  width: 300px;
-}
-.feature__img__card__six {
-  width: 25%;
-}
-.feature__img__card__six img {
-  height: 300px;
-  width: 300px;
-  margin-top: 1em;
+  margin: 1em 0em;
+  width: 90%;
 }
 .buttom__sub__container {
   width: 100%;
@@ -299,8 +260,6 @@ body {
   padding-top: 2em;
 }
 .buttom__contant__container {
-  // position: absolute;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,7 +318,7 @@ body {
 }
 .footer__main__container {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
   right: 0;
   width: 100%;
@@ -471,30 +430,7 @@ body {
   .sign__nav__bar__wraper {
     padding: 12px 20px;
   }
-  .nature__container {
-    flex-direction: column;
-  }
-  .nature__container__left__text {
-    margin: 1em 0em;
-    padding: 0em !important;
-  }
-  .nature__container__right {
-    width: 75%;
-  }
-  .nature__container__left {
-    width: 80%;
-  }
-  .freshness__container {
-    flex-direction: column;
-    margin-top: 1em;
-  }
-  .freshness__container__img {
-    width: 75%;
-  }
-  .freshness__container__contant {
-    width: 75%;
-    margin: 1em 0em;
-  }
+
   .footer__logo__signature svg {
     height: 50px;
     width: 162px;
@@ -504,6 +440,9 @@ body {
   }
   .footer__logo__sec {
     width: 90% !important;
+  }
+  .mail__input__bar {
+    width: 100%;
   }
 }
 
@@ -527,6 +466,9 @@ body {
   .buttom__contant__card {
     width: 75% !important;
   }
+  .signature__contant__nav__menu {
+    padding: 8px !important;
+  }
 }
 @media (max-width: 600px) {
   .nature__logo__start img {
@@ -547,6 +489,53 @@ body {
   }
   .mailing__container {
     margin-top: 7px !important;
+  }
+  .nature__container {
+    flex-direction: column;
+  }
+  .nature__container__left__text {
+    margin: 1em 0em;
+    padding: 0em !important;
+  }
+  .nature__container__right {
+    width: 75%;
+  }
+  .nature__container__left {
+    width: 80%;
+  }
+  .freshness__container {
+    flex-direction: column-reverse;
+    margin-top: 1em;
+  }
+  .freshness__container__img {
+    width: 75%;
+  }
+  .freshness__container__contant {
+    width: 75%;
+    margin: 1em 0em;
+  }
+  .feature__img__first__card__wraper {
+    flex-direction: column;
+  }
+  .feature__img__sec__card__wraper {
+    flex-direction: column;
+  }
+  .feature__img__thr__card__wraper {
+    flex-direction: column;
+  }
+  .feature__img__card__one {
+    width: 80% !important;
+  }
+  .feature__container__text {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .feature__container__text__sub__heading {
+    font-size: 16px !important;
+    padding: 0em 3em;
   }
 }
 @media (max-width: 750px) {
@@ -590,40 +579,10 @@ body {
     width: 100%;
   }
 
-  .feature__container__text {
-    width: 100%;
-    display: flex;
-    // align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .feature__container__text__sub__heading {
-    width: 100%;
-  }
-  .feature__cards__wraper {
-    flex-wrap: wrap;
-  }
-  .feature__img__first__card__wraper {
-    width: 50%;
-  }
-  .feature__img__sec__card__wraper {
-    width: 50%;
-    margin-top: 0em;
-  }
-  .feature__img__thr__card__wraper {
-    margin-top: 0em;
-    width: 100%;
-    display: flex;
-  }
-  .feature__img__card__five {
-    margin: 5px 1em;
-  }
-  .feature__img__card__six img {
-    margin-left: 8em;
-  }
   .footer__main__container {
     flex-direction: column;
-    margin-top: -5em;
+    margin-top: -6.5em;
+    top: 45% !important;
   }
   .footer__logo__sec {
     margin-bottom: 2em;
@@ -636,11 +595,21 @@ body {
     align-items: flex-start;
   }
   .footer__img img {
-    height: 130vh !important;
+    height: 150vh !important;
     object-fit: cover;
   }
   .buttom__contant__card__wraper {
     flex-direction: column;
+  }
+  .feature__container__text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 0em 3em;
+  }
+  .buttom__contant__container {
+    margin-top: 2em;
   }
 }
 @media (max-width: 850px) {
@@ -666,27 +635,12 @@ body {
   .freshness__container__contant__sub__heading {
     width: 100%;
   }
-  // .feature__img__thr__card__wraper {
-  //   display: none;
-  // }
-  .feature__img__card__one {
-    width: 45%;
-  }
-  .feature__img__card__one img {
-    height: 300px;
-    width: 350px;
-  }
-  .feature__img__sec__card__wraper {
-    margin-top: 0em;
-    width: 45%;
-  }
-  .feature__img__card__three img {
-    height: 350px;
-    width: 300px;
-  }
 }
 
 @media (max-width: 900px) {
+  .freshness__container__sign__logo {
+    display: none;
+  }
   .sign__header__contant__heading {
     font-size: 24px;
     margin-bottom: 8px;
@@ -737,6 +691,48 @@ body {
     margin-top: 2em;
     width: 45%;
   }
+  .feature__cards__wraper {
+    flex-direction: column;
+  }
+  .feature__img__first__card__wraper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .feature__img__card__one {
+    width: 50%;
+    height: 250px;
+  }
+  .feature__img__card__one img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .feature__cards__wraper {
+    align-items: unset;
+  }
+  .feature__img__sec__card__wraper {
+    width: 100%;
+    display: flex;
+    margin-top: 0em;
+    align-items: center;
+  }
+  .feature__img__thr__card__wraper {
+    width: 100%;
+    display: flex;
+    margin-top: 0em;
+    align-items: center;
+  }
+  .footer__main__container {
+    top: 30%;
+  }
+  .footer__logo__signature svg {
+    height: 60px;
+  }
+  .buttom__contant__container {
+    margin-top: 2em;
+  }
 }
 @media (max-width: 940px) {
   .footer__img img {
@@ -745,19 +741,6 @@ body {
   }
 }
 @media (max-width: 1150px) {
-  .feature__img__first__card__wraper {
-    width: 40%;
-  }
-  .feature__img__sec__card__wraper {
-    width: 40%;
-  }
-  .feature__img__thr__card__wraper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 3em;
-    width: 50%;
-  }
   .nature__logo__start img {
     height: 120px;
   }
