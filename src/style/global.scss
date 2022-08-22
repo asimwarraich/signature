@@ -42,6 +42,7 @@ body {
   margin: 0 auto;
   position: fixed;
   z-index: 999;
+  border-radius: 0px 0px 20px 20px;
 }
 .sign__nav__bar__wraper__active {
   background-color: rgb(255, 255, 255);
@@ -141,12 +142,12 @@ body {
   // margin: 0em 4em;
 }
 .nature__container__left__text {
-  padding: 0em 1em;
-  width: 80%;
+  padding-right: 5em;
+  width: 98%;
 }
 .nature__container__left__text__heading {
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 600;
   color: #511b3b;
 }
 .nature__container__left__text__sub__heading {
@@ -192,7 +193,7 @@ body {
 }
 .freshness__container__contant__heading {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 600;
   color: #511b3b;
   margin-bottom: 5px;
 }
@@ -217,7 +218,7 @@ body {
   padding-bottom: 2em;
 }
 .feature__container__text__heading {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
 }
 .feature__container__text__sub__heading {
@@ -229,6 +230,7 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  margin-top: 2em;
 }
 .feature__img__first__card__wraper {
   width: 35%;
@@ -236,16 +238,16 @@ body {
 .feature__img__sec__card__wraper {
   width: 35%;
   position: relative;
-  margin-top: -3em;
+  margin-top: -5em;
 }
 .feature__img__thr__card__wraper {
   width: 35%;
   position: relative;
-  margin-top: -10em;
+  margin-top: -16em;
 }
 .feature__img__card__one {
   margin: 1em;
-  width: 90%;
+  width: 104%;
 }
 .feature__img__card__one img {
   margin: 1em 0em;
@@ -254,7 +256,6 @@ body {
 .buttom__sub__container {
   width: 100%;
   max-width: 1440px;
-
   flex-direction: column;
   margin-top: 2em;
   padding-top: 2em;
@@ -422,7 +423,7 @@ body {
     padding: 4px;
   }
   .signature__header__logo {
-    margin: 5px;
+    margin: 1px;
   }
   .signature__header__logo svg {
     height: 30px;
@@ -447,15 +448,32 @@ body {
 }
 
 @media (max-width: 550px) {
+  .main__header__img {
+    height: 400px;
+  }
+  .main__header__img img {
+    object-fit: cover;
+  }
+  .footer__img__container {
+    top: -250px;
+    z-index: -1;
+  }
+  .sign__loction__card {
+    height: 50px !important;
+  }
+  .sign__loction__card svg {
+    height: fit-content !important;
+  }
   .sign__header__contant {
     text-align: center;
+    top: 95% !important;
   }
   .sign__header__contant__heading {
     font-weight: 300;
-    font-size: 16px !important;
+    font-size: 20px !important;
   }
   .sign__header__contant__sub__heading {
-    font-size: 18px !important;
+    font-size: 28px !important;
   }
   .nature__logo__start img {
     display: none;
@@ -468,6 +486,10 @@ body {
   }
   .signature__contant__nav__menu {
     padding: 8px !important;
+  }
+  .sign__loction__card {
+    width: 60% !important;
+    min-height: 190px !important;
   }
 }
 @media (max-width: 600px) {

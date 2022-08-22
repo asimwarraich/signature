@@ -11,6 +11,7 @@ import carthri from "./assets/feacard/cardthri.png";
 import cardtow from "./assets/feacard/cardtow.png";
 import crdfiv from "./assets/feacard/crdfiv.png";
 import crdgim from "./assets/feacard/crdgim.png";
+import sigfooter from "./assets/sigfooter.png";
 import sky from "./assets/sky.png";
 
 import Card from "./components/Card";
