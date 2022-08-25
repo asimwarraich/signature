@@ -5,7 +5,6 @@ body {
   padding: 0;
   margin: 0;
   // background-color: #83adcd;
-  font-family: "El Messiri", sans-serif;
 }
 .signature__contant__nav__menu {
   background-color: #511b3b;
@@ -75,10 +74,12 @@ body {
   font-size: 35px;
   color: white;
   font-weight: 300;
+  font-family: "Sweet Sans Pro", sans-serif;
 }
 .sign__header__contant__sub__heading {
   color: #511b3b;
   font-size: 45px;
+  font-family: "El Messiri", sans-serif;
 }
 .sign__location__card__wraper {
   width: 100%;
@@ -233,20 +234,20 @@ body {
   margin-top: 2em;
 }
 .feature__img__first__card__wraper {
-  width: 35%;
+  width: 30%;
 }
 .feature__img__sec__card__wraper {
-  width: 35%;
+  width: 30%;
   position: relative;
   margin-top: -5em;
 }
 .feature__img__thr__card__wraper {
-  width: 35%;
+  width: 30%;
   position: relative;
   margin-top: -16em;
 }
 .feature__img__card__one {
-  margin: 1em;
+  // margin: 1em;
   width: 104%;
 }
 .feature__img__card__one img {
@@ -455,7 +456,7 @@ body {
     object-fit: cover;
   }
   .footer__img__container {
-    top: -250px;
+    margin-top: -11em;
     z-index: -1;
   }
   .sign__loction__card {
@@ -605,6 +606,8 @@ body {
     flex-direction: column;
     margin-top: -6.5em;
     top: 45% !important;
+    align-items: flex-start;
+    padding-left: 2em;
   }
   .footer__logo__sec {
     margin-bottom: 2em;
@@ -724,6 +727,7 @@ body {
   .feature__img__card__one {
     width: 50%;
     height: 250px;
+    padding: 10px;
   }
   .feature__img__card__one img {
     height: 100%;
