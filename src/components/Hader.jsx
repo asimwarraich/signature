@@ -248,7 +248,7 @@ export default function Hader() {
           >
             <div className="sign__nav__links__wraper">
               <a
-                href="#"
+                href="#first__section__header"
                 Click={() => {
                   if (window.innerWidth < 900) {
                     setIsOpen(false);
@@ -259,7 +259,7 @@ export default function Hader() {
                 Home
               </a>
               <a
-                href="#"
+                href="#nature__section"
                 onClick={() => {
                   if (window.innerWidth < 900) {
                     setIsOpen(false);
@@ -270,7 +270,7 @@ export default function Hader() {
                 About us
               </a>
               <a
-                href="#"
+                href="#feature__section"
                 onClick={() => {
                   if (window.innerWidth < 900) {
                     setIsOpen(false);
@@ -281,7 +281,7 @@ export default function Hader() {
                 Amenities
               </a>
               <a
-                href="#"
+                href="#location__section"
                 onClick={() => {
                   if (window.innerWidth < 900) {
                     setIsOpen(false);
@@ -292,7 +292,7 @@ export default function Hader() {
                 Location
               </a>
               <a
-                href="#"
+                href="#contant__section"
                 onClick={() => {
                   if (window.innerWidth < 900) {
                     setIsOpen(false);

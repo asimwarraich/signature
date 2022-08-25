@@ -5,7 +5,7 @@ import signature from "../assets/signature.png";
 function Card() {
   return (
     <div>
-      <div className="nature__container">
+      <div id="nature__section" className="nature__container">
         <div className="nature__logo__start">
           <img src={signature} alt="signature" />
         </div>
